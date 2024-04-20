@@ -11,7 +11,7 @@ export default function Home() {
       </h1>
       <div className="grid grid-cols-2 gap-40">
         <button
-          className="text-9xl bg-red-500 hover:bg-blue-700 text-white font-bold rounded"
+          className="text-9xl bg-red-500 hover:bg-red-700 text-white font-bold rounded"
           onClick={() => {
             setCount(count - 1);
           }}
@@ -19,7 +19,7 @@ export default function Home() {
           -
         </button>
         <button
-          className="text-9xl bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          className="text-9xl bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
           onClick={() => {
             setCount(count + 1);
           }}
